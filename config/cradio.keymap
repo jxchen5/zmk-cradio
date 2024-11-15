@@ -78,7 +78,7 @@
         right_layer {
             bindings = <
 &kp GRAVE   &kp PERCENT   &kp DOLLAR       &kp HASH       &kp PIPE       &kp C_VOLUME_UP    &kp PAGE_UP    &kp UP_ARROW  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&kp TAB     &kp AT_SIGN   &kp EXCLAMATION  &kp QUESTION   &kp COLON      &kp LEFT_GUI       &kp LEFT       &kp DOWN      &kp RIGHT         &kp BACKSLASH
+&kp TAB     &kp AT_SIGN   &kp EXCLAMATION  &kp QUESTION   &kp COLON      &kp LS(LC(M))      &kp LEFT       &kp DOWN      &kp RIGHT         &kp BACKSLASH
 &kp ESCAPE  &kp ASTERISK  &kp AMPERSAND    &kp CARET      &kp SEMICOLON  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp HOME      &kp END           &kp SLASH
                                            &kp BACKSPACE  &mo 1          &mo 2              &kp SPACE
             >;
