@@ -55,7 +55,7 @@
 
     new_behavior-1:
 
-    behavior_quesbehavior_ques: new_behavior-1 {
+    behavior_ques: behavior_ques {
         compatible = "zmk,behavior-mod-morph";
         label = "BEHAVIOR_QUES";
         bindings = <&kp PERIOD>, <&kp QUESTION>;
@@ -66,13 +66,16 @@
 
     new_behavior-1:
 
-    behavior_exlbehavior_exl: new_behavior-1 {
+    behavior_exl: behavior_exl {
         compatible = "zmk,behavior-mod-morph";
         bindings = <&kp COMMA>, <&kp EXCLAMATION>;
 
         mods = <(MOD_LSFT)>;
         label = "behavior_exl";
     };
+};
+
+behaviors {
 };
 
 behaviors {
