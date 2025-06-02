@@ -66,13 +66,16 @@
 
     new_behavior-1:
 
-    behavior_exl: behavior_exl {
+    behavior_excl: behavior_excl {
         compatible = "zmk,behavior-mod-morph";
         bindings = <&kp COMMA>, <&kp EXCLAMATION>;
 
         mods = <(MOD_LSFT)>;
-        label = "behavior_exl";
+        label = "BEHAVIOR_EXCL";
     };
+};
+
+behaviors {
 };
 
 behaviors {
