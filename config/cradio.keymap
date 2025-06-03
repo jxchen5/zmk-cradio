@@ -10,7 +10,11 @@
 &mt {
     //  flavor = "tap-preferred";
     // tapping_term_ms = <200>;
+
+    tapping-term-ms = <100>;
 };
+
+&lt { tapping-term-ms = <100>; };
 
 / {
     combos {
