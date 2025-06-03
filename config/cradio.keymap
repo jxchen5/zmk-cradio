@@ -62,6 +62,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        per_shift_ques: per_shift_ques {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PER_SHIFT_QUES";
+            bindings = <&kp PERIOD>, <&kp QUESTION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -78,19 +87,19 @@
 
         left_layer {
             bindings = <
-&trans  &trans     &kp AMPS        &kp GREATER_THAN  &trans  &kp GRAVE  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON
-&trans  &kp MINUS  &kp UNDERSCORE  &kp LESS_THAN     &trans  &kp AT     &kp LCTRL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON
-&trans  &trans     &trans          &trans            &trans  &trans     &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE
-                                   &trans            &trans  &trans     &trans
+&trans  &trans     &kp AMPS        &kp GREATER_THAN  &trans  &kp PIPE       &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HOME
+&trans  &kp MINUS  &kp UNDERSCORE  &kp LESS_THAN     &trans  &kp SEMICOLON  &kp LCTRL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON
+&trans  &trans     &trans          &trans            &trans  &trans         &kp AT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp END
+                                   &trans            &trans  &trans         &trans
             >;
         };
 
         right_layer {
             bindings = <
-&trans     &kp PLUS      &kp N9       &kp N7        &trans    &trans  &kp NUMBER_6  &kp N8        &trans        &trans
-&kp EQUAL  &kp N5        &kp N0       &kp NUMBER_3  &kp PIPE  &trans  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_4  &trans
-&trans     &kp ASTERISK  &kp PERCENT  &kp HASH      &trans    &trans  &trans        &trans        &trans        &trans
-                                      &trans        &trans    &trans  &trans
+&trans     &kp PLUS      &kp N9       &kp N7        &kp TAB    &trans  &kp NUMBER_6  &kp N8        &trans        &trans
+&kp EQUAL  &kp N5        &kp N0       &kp NUMBER_3  &kp TILDE  &trans  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_4  &trans
+&trans     &kp ASTERISK  &kp PERCENT  &kp HASH      &trans     &trans  &trans        &trans        &trans        &trans
+                                      &trans        &trans     &trans  &trans
             >;
         };
 
