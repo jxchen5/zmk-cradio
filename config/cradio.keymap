@@ -53,6 +53,17 @@
         };
     };
 
+    behaviors {
+        apos_shift_excl: apos_shift_excl {
+            compatible = "zmk,behavior-mod-morph";
+            label = "APOS_SHIFT_EXCL";
+            bindings = <&kp SQT>, <&kp EXCLAMATION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
