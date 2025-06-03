@@ -67,19 +67,19 @@
 
         left_layer {
             bindings = <
-&trans  &trans     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL  &kp NUMBER_9  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp TILDE
-&trans  &kp LC(C)  &kp LC(X)              &kp LC(V)          &kp PLUS   &kp MINUS     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp LESS_THAN
-&trans  &trans     &trans                 &trans             &trans     &trans        &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp GREATER_THAN
-                                          &trans             &trans     &trans        &trans
+&trans  &trans     &kp AMPS        &kp GREATER_THAN  &trans  &kp GRAVE  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON
+&trans  &kp MINUS  &kp UNDERSCORE  &kp LESS_THAN     &trans  &kp AT     &kp LCTRL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON
+&trans  &trans     &trans          &trans            &trans  &trans     &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE
+                                   &trans            &trans  &trans     &trans
             >;
         };
 
         right_layer {
             bindings = <
-&kp GRAVE   &kp PERCENT   &kp DOLLAR       &kp HASH      &kp PIPE       &kp C_VOLUME_UP  &kp PAGE_UP  &kp UP_ARROW  &trans     &trans
-&kp TAB     &kp AT_SIGN   &kp EXCLAMATION  &kp QUESTION  &kp COLON      &kp LS(LC(M))    &kp LEFT     &kp DOWN      &kp RIGHT  &trans
-&kp ESCAPE  &kp ASTERISK  &kp AMPERSAND    &kp CARET     &kp SEMICOLON  &trans           &trans       &trans        &trans     &trans
-                                           &trans        &trans         &trans           &trans
+&trans     &kp PLUS      &kp N9       &kp N7        &trans    &trans  &kp NUMBER_6  &kp N8        &trans        &trans
+&kp EQUAL  &kp N5        &kp N0       &kp NUMBER_3  &kp PIPE  &trans  &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_4  &trans
+&trans     &kp ASTERISK  &kp PERCENT  &kp HASH      &trans    &trans  &trans        &trans        &trans        &trans
+                                      &trans        &trans    &trans  &trans
             >;
         };
 
